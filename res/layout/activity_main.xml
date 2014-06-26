@@ -4,4 +4,9 @@
     android:layout_height="match_parent"
     tools:context="${packageName}.${activityClass}" >
 
+    <android.opengl.GLSurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
 </RelativeLayout>
